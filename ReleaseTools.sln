@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLocalizer", "MultiLocalizer\MultiLocalizer.csproj", "{383D3B6B-20C7-46E7-AD5D-A8A7F70D7DA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383D3B6B-20C7-46E7-AD5D-A8A7F70D7DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D3B6B-20C7-46E7-AD5D-A8A7F70D7DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D3B6B-20C7-46E7-AD5D-A8A7F70D7DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D3B6B-20C7-46E7-AD5D-A8A7F70D7DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

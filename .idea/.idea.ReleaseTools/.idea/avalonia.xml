@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MultiLocalizer/App.axaml" value="MultiLocalizer/MultiLocalizer.csproj" />
+        <entry key="MultiLocalizer/Styles/Style.axaml" value="MultiLocalizer/MultiLocalizer.csproj" />
+        <entry key="MultiLocalizer/ViewModels/LanguageInputControl.axaml" value="MultiLocalizer/MultiLocalizer.csproj" />
+        <entry key="MultiLocalizer/Views/MainWindow.axaml" value="MultiLocalizer/MultiLocalizer.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

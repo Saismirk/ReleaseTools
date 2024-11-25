@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}"
+             x:CompileBindings="True"
+             x:Class="MultiLocalizer.ViewModels.LanguageInputControl">
+    <StackPanel Classes="language">
+        <TextBlock Text="{CompiledBinding Language}" Classes="language"/>
+        <StackPanel Orientation="Horizontal">
+            <Border Classes="translation">
+                <TextBlock Classes="translation" Text="{CompiledBinding Input}" />
+            </Border>
+            <StackPanel>
+                <Button Width="22" Height="22" Margin="2" 
+                        Command="{CompiledBinding CopyToClipboardCommand}">
+                    <Image Source="avares://MultiLocalizer/Assets/copy_icon.png" Height="18" Width="18"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
